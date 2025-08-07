@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new task</title>
+    <link rel="stylesheet" href="../style/home.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/new-task.js"></script>
+  </head>
+  <body class="statistics">
+    <div class="container">
+      <header class="top-bar">
+        <h2>Add or Edit your tasks</h2>
+        <img
+          src="../assets/user.png"
+          alt="User"
+          style="width: 30px; height: 30px"
+        />
+      </header>
+
+      <section class="task">
+        <input id="taskInput" type="text" placeholder="Type your task here" />
+      </section>
+      <select id="category">
+        <option value="">Select category</option>
+        <option value="stretch">Stretch</option>
+        <option value="cardio">Cardio</option>
+        <option value="strength">Strength</option>
+        <option value="relax">Relax</option>
+      </select>
+      <div class="error-message" id="categoryError"></div>
+
+      <button class="btn">Save</button>
+
+      <footer class="bottom-nav">
+        <img src="../assets/home-button.png" alt="home" />
+        <img src="../assets/plus.png" alt="add" />
+        <img src="../assets/bar-graph.png" alt="chart" />
+      </footer>
+    </div>
+  </body>
+</html>

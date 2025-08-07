@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "تمرین بدنسازی",
+      "category": "strength",
+      "done": false,
+      "url": "task.html?id=1"
+    }
+  ]
+}
